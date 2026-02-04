@@ -2,7 +2,7 @@
 
 # JavaScript Learning Journey - Month 1
 
-This repository contains my practice, notes, and progress as I work through my day 1 .
+This repository contains my practice, notes, and progress as I work through my week 1 .
 
 ## Progress:
 
@@ -20,4 +20,4 @@ The focus for today was **JavaScript Foundations** and **Git Workflow**.
 
 1. Clone the repository: `git clone `
 2. Navigate to the folder: `cd js-practice-repo`
-3. Run any file using Node: `node practice.js`
+3. Run both files using Node: `node filename.js`

@@ -150,3 +150,39 @@ const plusTwo = (num) => {
 object:
 is a js special data type that allows to store more than one values(like an array).
 */
+// array methods:
+/*
+filter(): used to filter and array .
+example : to filter and return even numbers only from the array on which the method is being used.
+*/
+let array = [1,2,3,4,5,6];
+let evenOnly = array.filter(number => number % 2 === 0 );
+console.log(evenOnly);
+
+// example 2 :
+function isBig(value){
+    return value >= 100;
+}
+let arrays = [24,200,400,50,234];
+let bigNum = arrays.filter(isBig)
+
+/* map(): its an array method that applies a function to an array and return a new array and keeo the original array unchanged.
+examples
+*/
+let numbers = [1,2,3,4,5];
+let updatedNum = numbers.map(num => num * num);
+console.log(updatedNum);
+
+/*
+reduce(): to reduce an elements of an array into a single value.
+example
+*/
+
+let nums = [1,2,3,4,5]
+let sum = nums.reduce((a,b) =>{
+    a + b
+
+})
+console.log(sum)
+// object methods 
+// use Objects.keys (name of the object ) to get the key values.
